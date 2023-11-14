@@ -1,7 +1,0 @@
-UPDATE qualityfailures SET
-		nickname = '{{update_form.fieldState.nickname.isVisible ? update_form.formData.nickname : update_form.sourceData.nickname}}',
-		defect = '{{update_form.fieldState.defect.isVisible ? update_form.formData.defect : update_form.sourceData.defect}}',
-    qty = '{{update_form.fieldState.qty.isVisible ? update_form.formData.qty : update_form.sourceData.qty}}',
-		failuretype = '{{update_form.fieldState.failuretype.isVisible ? update_form.formData.failuretype : update_form.sourceData.failuretype}}',
-		date = '{{update_form.fieldState.date.isVisible ? update_form.formData.date : update_form.sourceData.date}}'
-WHERE id = {{data_table.selectedRow.id}};

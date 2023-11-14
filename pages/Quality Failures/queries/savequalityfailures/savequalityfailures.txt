@@ -1,0 +1,8 @@
+INSERT INTO qualityfailures (nickname, qty, failuretype, defect, date, note)
+VALUES ({{nicknametext.selectedOptionValue}},
+        {{qtytext.text}},
+        {{failuretypetext.selectedOptionValue}},
+        {{defecttext.selectedOptionValue}},
+        {{datetext.formattedDate}},
+        {{notetext.text}});
+

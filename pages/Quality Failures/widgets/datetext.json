@@ -25,7 +25,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "closeOnSelection": true,
     "mobileBottomRow": 13,
-    "widgetName": "DatePicker1",
+    "widgetName": "datetext",
     "minDate": "1920-12-31T18:30:00.000Z",
     "dynamicPropertyPathList": [{"key": "defaultDate"}],
     "displayName": "DatePicker",
