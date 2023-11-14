@@ -3,6 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 37,
     "widgetName": "Button5",
+    "onClick": "{{resetWidget(\"nicknametext\", true);\nresetWidget(\"defecttext\", true);\nresetWidget(\"qtytext\", true);\nresetWidget(\"failuretypetext\", true);\nresetWidget(\"datetext\", true);\nresetWidget(\"notetext\", true);}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
@@ -16,6 +17,7 @@
     "hideCard": false,
     "mobileRightColumn": 46,
     "animateLoading": true,
+    "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 45,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},

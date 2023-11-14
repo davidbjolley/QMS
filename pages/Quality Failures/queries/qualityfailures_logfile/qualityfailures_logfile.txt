@@ -1,0 +1,11 @@
+INSERT INTO qualityfailures_logfile (nickname, qty, failuretype, defect, date, note, username, event)
+VALUES ({{nicknametext.selectedOptionValue}},
+        {{qtytext.text}},
+        {{failuretypetext.selectedOptionValue}},
+        {{defecttext.selectedOptionValue}},
+        {{datetext.formattedDate}},
+        {{notetext.text}},
+				{{appsmith.user.username}},
+				'entry');
+				
+

@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 37,
     "widgetName": "Button4",
-    "onClick": "{{savequalityfailures.run().then(() => {\n  resetWidget(\"nicknametext\", true);\n  resetWidget(\"defecttext\", true);\n  resetWidget(\"qtytext\", true);\n  resetWidget(\"failuretypetext\", true);\n  resetWidget(\"datetext\", true);\n  resetWidget(\"notetext\", true);\n  last5qualityfailures.run();\n});}}",
+    "onClick": "{{savequalityfailures.run().then(() => {\n  resetWidget(\"nicknametext\", true);\n  resetWidget(\"defecttext\", true);\n  resetWidget(\"qtytext\", true);\n  resetWidget(\"failuretypetext\", true);\n  resetWidget(\"datetext\", true);\n  resetWidget(\"notetext\", true);\n  last5qualityfailures.run();\n  qualityfailures_logfile.run();\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",

@@ -1,0 +1,11 @@
+INSERT INTO qualityfailures_logfile (nickname, qty, failuretype, defect, date, note, username, event)
+VALUES ({{data_table.selectedRow.nickname}},
+        {{data_table.selectedRow.qty}},
+        {{data_table.selectedRow.failuretype}},
+        {{data_table.selectedRow.defect}},
+        {{data_table.selectedRow.date}},
+        {{data_table.selectedRow.note}},
+				{{appsmith.user.username}},
+				'deleted');
+				
+

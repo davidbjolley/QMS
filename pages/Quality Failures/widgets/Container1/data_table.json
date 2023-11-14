@@ -194,7 +194,7 @@
             "boxShadow": "none",
             "isDerived": true,
             "computedValue": "",
-            "onClick": "{{showModal('Delete_Modal')}}",
+            "onClick": "{{Delete_qualityfailures_logfile.run();\nDeleteQuery.run().then(() => {\n  showAlert('Record deleted', 'success');\n});\nlast5qualityfailures.run()}}",
             "buttonColor": "#DD4B34",
             "buttonStyle": "rgb(3, 179, 101)",
             "index": 5,
