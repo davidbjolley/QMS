@@ -7,6 +7,10 @@
     {
       "id": "Quality Failures",
       "isDefault": false
+    },
+    {
+      "id": "All Quality Failures",
+      "isDefault": false
     }
   ],
   "viewMode": false,
