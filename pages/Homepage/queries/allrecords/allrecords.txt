@@ -1,0 +1,2 @@
+SELECT * FROM qualityfailures
+ORDER BY id DESC;

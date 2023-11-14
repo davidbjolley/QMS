@@ -1,0 +1,12 @@
+INSERT INTO qualityfailures (
+	nickname,
+	defect,
+	qty,
+	failuretype,
+	date)
+VALUES (
+	'{{insert_form.formData.nickname}}',
+	'{{insert_form.formData.defect}}',
+	'{{insert_form.formData.qty}}',
+	'{{insert_form.formData.failuretype}}',
+	'{{insert_form.formData.date}}');

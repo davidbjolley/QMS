@@ -1,0 +1,3 @@
+SELECT DISTINCT nickname
+FROM workstation
+ORDER BY nickname ASC;

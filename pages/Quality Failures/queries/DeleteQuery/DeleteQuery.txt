@@ -1,0 +1,2 @@
+DELETE FROM qualityfailures
+  WHERE id = {{data_table.triggeredRow.id}};

@@ -1,0 +1,4 @@
+SELECT * FROM qualityfailures
+WHERE nickname like '%{{data_table.searchText || ""}}%'
+ORDER BY {{data_table.sortOrder.column || 'id'}} {{data_table.sortOrder.order || "DESC"}}
+LIMIT 5;
