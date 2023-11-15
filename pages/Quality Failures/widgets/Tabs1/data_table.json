@@ -22,7 +22,8 @@
         {"key": "primaryColumns.date.computedValue"},
         {"key": "primaryColumns.id.computedValue"},
         {"key": "tableData"},
-        {"key": "primaryColumns.note.computedValue"}
+        {"key": "primaryColumns.note.computedValue"},
+        {"key": "primaryColumns.date_back.computedValue"}
     ],
     "leftColumn": 1,
     "delimiter": ",",
@@ -73,6 +74,7 @@
         "qty",
         "failuretype",
         "date",
+        "date_back",
         "id",
         "note",
         "customColumn1"
@@ -100,7 +102,7 @@
             "index": 4,
             "isVisible": true,
             "label": "date",
-            "inputFormat": "MM/DD/YYYY",
+            "inputFormat": "YYYY-MM-DD",
             "textColor": "",
             "columnType": "date",
             "horizontalAlignment": "LEFT",
@@ -211,6 +213,25 @@
             "id": "customColumn1",
             "isDisabled": false,
             "buttonLabelColor": "#FFFFFF"
+        },
+        "date_back": {
+            "isCellVisible": true,
+            "isDerived": false,
+            "computedValue": "{{data_table.sanitizedTableData.map((currentRow) => ( currentRow.date_back))}}",
+            "textSize": "0.875rem",
+            "index": 4,
+            "isVisible": false,
+            "label": "date_back",
+            "textColor": "",
+            "columnType": "text",
+            "horizontalAlignment": "LEFT",
+            "width": 150,
+            "enableFilter": true,
+            "enableSort": true,
+            "id": "date_back",
+            "isDisabled": false,
+            "cellBackground": "",
+            "verticalAlignment": "CENTER"
         },
         "id": {
             "isCellVisible": true,
