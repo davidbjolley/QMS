@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": false,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 44,
+    "topRow": 34,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -58,10 +58,10 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1699977212195,
-    "originalBottomRow": 55,
+    "originalBottomRow": 44,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 50,
-    "widgetName": "Table1Copy",
+    "widgetName": "Tablelast",
     "defaultPageSize": 0,
     "columnOrder": [
         "id",
@@ -71,7 +71,7 @@
     ],
     "dynamicPropertyPathList": [],
     "displayName": "Table",
-    "bottomRow": 54,
+    "bottomRow": 44,
     "columnWidthMap": {},
     "parentRowSpace": 10,
     "hideCard": false,
@@ -81,7 +81,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "date": {
-            "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"date\"]))}}",
+            "computedValue": "{{Tablelast.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"date\"]))}}",
             "isEditable": false,
             "alias": "date",
             "enableSort": true,
@@ -108,7 +108,7 @@
             "verticalAlignment": "CENTER"
         },
         "defect": {
-            "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"defect\"]))}}",
+            "computedValue": "{{Tablelast.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"defect\"]))}}",
             "isEditable": false,
             "alias": "defect",
             "enableSort": true,
@@ -138,7 +138,7 @@
             "verticalAlignment": "CENTER"
         },
         "nickname": {
-            "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"nickname\"]))}}",
+            "computedValue": "{{Tablelast.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"nickname\"]))}}",
             "isEditable": false,
             "alias": "nickname",
             "enableSort": true,
@@ -165,7 +165,7 @@
             "verticalAlignment": "CENTER"
         },
         "id": {
-            "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
+            "computedValue": "{{Tablelast.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
             "isEditable": false,
             "alias": "id",
             "enableSort": true,
@@ -195,20 +195,20 @@
     "key": "axdc0j2hyy",
     "canFreezeColumn": false,
     "isDeprecated": false,
-    "rightColumn": 43,
+    "rightColumn": 58,
     "textSize": "0.875rem",
-    "widgetId": "1lanb4ju6m",
+    "widgetId": "ebtp05x58f",
     "minWidth": 450,
     "tableData": "{{lastqualityfailure.data}}",
     "label": "Data",
     "searchKey": "",
-    "parentId": "0",
+    "parentId": "kew059ydb7",
     "renderMode": "CANVAS",
     "mobileTopRow": 22,
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": false,
     "responsiveBehavior": "fill",
-    "originalTopRow": 45,
+    "originalTopRow": 34,
     "mobileLeftColumn": 0,
     "isVisiblePagination": false,
     "verticalAlignment": "CENTER"

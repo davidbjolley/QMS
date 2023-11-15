@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 460,
+          "bottomRow": 500,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -45,8 +45,32 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "Quality Failures_countqualityfailures",
+              "name": "countqualityfailures",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "Quality Failures_failuretypes",
               "name": "failuretypes",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Quality Failures_firstqualityfailure",
+              "name": "firstqualityfailure",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Quality Failures_lastqualityfailure",
+              "name": "lastqualityfailure",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
@@ -71,6 +95,34 @@
           ],
           [
             {
+              "id": "Quality Failures_Select_qualityfailures1",
+              "name": "Select_qualityfailures1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Table1.searchText",
+                "Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
+                "Table1.sortOrder.column || 'id'",
+                "Table1.pageSize",
+                "Table1.pageOffset"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Quality Failures_Select_qualityfailures_logfile1",
+              "name": "Select_qualityfailures_logfile1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Table1.searchText",
+                "Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
+                "Table1.sortOrder.column || 'timestamp'",
+                "Table1.pageSize",
+                "Table1.pageOffset"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "Quality Failures_last5qualityfailures",
               "name": "last5qualityfailures",
               "confirmBeforeExecute": false,
@@ -79,6 +131,28 @@
                 "data_table.sortOrder.column || 'id'",
                 "data_table.sortOrder.order || \"DESC\"",
                 "data_table.searchText || \"\""
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Quality Failures_Total_record_qualityfailures1",
+              "name": "Total_record_qualityfailures1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Table1.searchText"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Quality Failures_Total_record_qualityfailures_logfile1",
+              "name": "Total_record_qualityfailures_logfile1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Table1.searchText"
               ],
               "timeoutInMillisecond": 10000
             }

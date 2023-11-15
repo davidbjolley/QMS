@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "All Quality Failures",
-    "slug": "all-quality-failures",
+    "name": "Logfiles",
+    "slug": "logfiles",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 640,
+          "bottomRow": 680,
           "containerStyle": "none",
           "snapRows": 61,
           "parentRowSpace": 1,
@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "All Quality Failures_Select_qualityfailures1",
-              "name": "Select_qualityfailures1",
+              "id": "Logfiles_Select_qualityfailures_logfile1",
+              "name": "Select_qualityfailures_logfile1",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
@@ -44,8 +44,8 @@
           ],
           [
             {
-              "id": "All Quality Failures_Total_record_qualityfailures1",
-              "name": "Total_record_qualityfailures1",
+              "id": "Logfiles_Total_record_qualityfailures_logfile1",
+              "name": "Total_record_qualityfailures_logfile1",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
@@ -57,7 +57,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "All Quality Failures",
+        "id": "Logfiles",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -68,5 +68,5 @@
     "isHidden": true
   },
   "deleted": false,
-  "gitSyncId": "651b343c20ab4d5a5e3d2f89_6553c65420ab4d5a5e3d32f9"
+  "gitSyncId": "651b343c20ab4d5a5e3d2f89_6553e52d20ab4d5a5e3d331d"
 }

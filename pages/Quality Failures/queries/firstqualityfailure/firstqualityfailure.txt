@@ -1,0 +1,4 @@
+SELECT id, date, nickname, defect
+FROM qualityfailures
+ORDER BY id ASC
+LIMIT 1;

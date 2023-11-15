@@ -2,14 +2,18 @@
   "pages": [
     {
       "id": "Homepage",
-      "isDefault": true
-    },
-    {
-      "id": "Quality Failures",
       "isDefault": false
     },
     {
+      "id": "Quality Failures",
+      "isDefault": true
+    },
+    {
       "id": "All Quality Failures",
+      "isDefault": false
+    },
+    {
+      "id": "Logfiles",
       "isDefault": false
     }
   ],

@@ -1,0 +1,1 @@
+SELECT COUNT(*) from qualityfailures WHERE date LIKE '%{{Table1.searchText}}%';
