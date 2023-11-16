@@ -1,6 +1,6 @@
 {
     "boxShadow": "none",
-    "dateFormat": "MM-DD-YYYY",
+    "dateFormat": "YYYY-MM-DD",
     "iconSVG": "/static/media/icon.c0c4b770ee1862b73198267331d1611c.svg",
     "topRow": 4,
     "labelWidth": 5,
