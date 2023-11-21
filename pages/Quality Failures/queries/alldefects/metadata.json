@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT DISTINCT defect FROM qualityfailures;",
+      "body": "SELECT DISTINCT reason\nFROM defects;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {

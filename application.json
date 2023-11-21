@@ -15,6 +15,14 @@
     {
       "id": "Logfiles",
       "isDefault": false
+    },
+    {
+      "id": "Failuretype Editing",
+      "isDefault": false
+    },
+    {
+      "id": "Defects Editing",
+      "isDefault": false
     }
   ],
   "viewMode": false,

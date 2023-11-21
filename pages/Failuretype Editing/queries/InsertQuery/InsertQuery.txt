@@ -1,0 +1,4 @@
+INSERT INTO failuretypes (
+	failuretype)
+VALUES (
+	'{{insert_form.formData.failuretype}}');

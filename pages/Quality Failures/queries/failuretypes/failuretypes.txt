@@ -1,1 +1,1 @@
-SELECT DISTINCT failuretype FROM qualityfailures;
+SELECT * FROM failuretypes;

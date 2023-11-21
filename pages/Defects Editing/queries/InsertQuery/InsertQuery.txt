@@ -1,0 +1,4 @@
+INSERT INTO defects (
+	defects)
+VALUES (
+	'{{insert_form.formData.defects}}');

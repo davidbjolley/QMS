@@ -1,0 +1,13 @@
+UPDATE defects SET
+		defects = '{{update_form.fieldState.defects.isVisible ? update_form.formData.defects : update_form.sourceData.defects}}',
+
+
+
+
+
+
+
+
+
+
+;

@@ -1,0 +1,13 @@
+UPDATE failuretypes SET
+		failuretype = '{{update_form.fieldState.failuretype.isVisible ? update_form.formData.failuretype : update_form.sourceData.failuretype}}',
+
+
+
+
+
+
+
+
+
+
+;
