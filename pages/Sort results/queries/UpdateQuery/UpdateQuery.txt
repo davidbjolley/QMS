@@ -1,0 +1,9 @@
+UPDATE sort_results SET
+		nickname = '{{update_form.fieldState.nickname.isVisible ? update_form.formData.nickname : update_form.sourceData.nickname}}',
+		shift = '{{update_form.fieldState.shift.isVisible ? update_form.formData.shift : update_form.sourceData.shift}}',
+    goodparts = '{{update_form.fieldState.goodparts.isVisible ? update_form.formData.goodparts : update_form.sourceData.goodparts}}',
+		scrap = '{{update_form.fieldState.scrap.isVisible ? update_form.formData.scrap : update_form.sourceData.scrap}}',
+		employeehours = '{{update_form.fieldState.employeehours.isVisible ? update_form.formData.employeehours : update_form.sourceData.employeehours}}',
+		Notes = '{{update_form.fieldState.Notes.isVisible ? update_form.formData.Notes : update_form.sourceData.Notes}}',
+		date = '{{update_form.fieldState.date.isVisible ? update_form.formData.date : update_form.sourceData.date}}'
+WHERE id = {{data_table.selectedRow.id}};

@@ -1,0 +1,8 @@
+UPDATE sorts_certs SET
+		nickname = '{{update_form.fieldState.nickname.isVisible ? update_form.formData.nickname : update_form.sourceData.nickname}}',
+		category = '{{update_form.fieldState.category.isVisible ? update_form.formData.category : update_form.sourceData.category}}',
+    defect = '{{update_form.fieldState.defect.isVisible ? update_form.formData.defect : update_form.sourceData.defect}}',
+		last_finding = '{{update_form.fieldState.last_finding.isVisible ? update_form.formData.last_finding : update_form.sourceData.last_finding}}',
+		notes = '{{update_form.fieldState.notes.isVisible ? update_form.formData.notes : update_form.sourceData.notes}}',
+		closed = '{{update_form.fieldState.closed.isVisible ? update_form.formData.closed : update_form.sourceData.closed}}'
+WHERE id = {{data_table.selectedRow.id}};

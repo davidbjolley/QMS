@@ -1,0 +1,16 @@
+INSERT INTO sort_results (
+	nickname,
+	shift,
+	goodparts,
+	scrap,
+	employeehours,
+	Notes,
+	date)
+VALUES (
+	'{{insert_form.formData.nickname}}',
+	'{{insert_form.formData.shift}}',
+	'{{insert_form.formData.goodparts}}',
+	'{{insert_form.formData.scrap}}',
+	'{{insert_form.formData.employeehours}}',
+	'{{insert_form.formData.Notes}}',
+	'{{insert_form.formData.date}}');

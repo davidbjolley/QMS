@@ -1,0 +1,14 @@
+INSERT INTO sorts_certs (
+	nickname,
+	category,
+	defect,
+	last_finding,
+	notes,
+	closed)
+VALUES (
+	'{{insert_form.formData.nickname}}',
+	'{{insert_form.formData.category}}',
+	'{{insert_form.formData.defect}}',
+	'{{insert_form.formData.last_finding}}',
+	'{{insert_form.formData.notes}}',
+	'{{insert_form.formData.closed}}');

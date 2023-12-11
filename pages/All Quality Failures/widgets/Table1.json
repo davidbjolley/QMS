@@ -27,7 +27,8 @@
         {"key": "primaryColumns.EditActions1.saveBorderRadius"},
         {"key": "primaryColumns.EditActions1.discardBorderRadius"},
         {"key": "primaryColumns.EditActions1.isSaveDisabled"},
-        {"key": "primaryColumns.EditActions1.isDiscardDisabled"}
+        {"key": "primaryColumns.EditActions1.isDiscardDisabled"},
+        {"key": "primaryColumns.date_back.computedValue"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 0,
@@ -70,7 +71,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1699991113221,
+    "columnUpdatedAt": 1702054508394,
     "originalBottomRow": 64,
     "primaryColumnId": "id",
     "defaultSelectedRowIndices": [0],
@@ -85,6 +86,7 @@
         "failuretype",
         "date",
         "note",
+        "date_back",
         "EditActions1"
     ],
     "dynamicPropertyPathList": [
@@ -285,6 +287,36 @@
             "enableFilter": true,
             "sticky": "",
             "originalId": "nickname",
+            "verticalAlignment": "CENTER"
+        },
+        "date_back": {
+            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"date_back\"]))}}",
+            "isEditable": false,
+            "alias": "date_back",
+            "enableSort": true,
+            "isSaveVisible": true,
+            "id": "date_back",
+            "isDisabled": false,
+            "allowSameOptionsInNewRow": true,
+            "validation": {},
+            "isCellVisible": true,
+            "isDerived": false,
+            "textSize": "0.875rem",
+            "allowCellWrapping": false,
+            "index": 4,
+            "isDiscardVisible": true,
+            "isVisible": true,
+            "label": "date_back",
+            "fontStyle": "",
+            "textColor": "",
+            "columnType": "text",
+            "horizontalAlignment": "LEFT",
+            "isCellEditable": false,
+            "width": 150,
+            "enableFilter": true,
+            "sticky": "",
+            "originalId": "date_back",
+            "cellBackground": "",
             "verticalAlignment": "CENTER"
         },
         "id": {
