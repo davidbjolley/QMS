@@ -3,7 +3,7 @@ SELECT
 FROM
   qualityfailures_logfile
 WHERE
-  nickname LIKE '%{{Table1.searchText}}%'
+  nickname LIKE '%{{Tablelogfiles.searchText}}%'
 ORDER BY
   {{Table1.sortOrder.column || 'timestamp'}} {{Table1.sortOrder.order !== "desc" ? "" : "DESC"}}
 LIMIT

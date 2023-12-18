@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT\n  *\nFROM\n  qualityfailures_logfile\nWHERE\n  nickname LIKE '%{{Table1.searchText}}%'\nORDER BY\n  {{Table1.sortOrder.column || 'timestamp'}} {{Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\nLIMIT\n  {{Table1.pageSize}}\nOFFSET\n  {{Table1.pageOffset}}",
+      "body": "SELECT\n  *\nFROM\n  qualityfailures_logfile\nWHERE\n  nickname LIKE '%{{Tablelogfiles.searchText}}%'\nORDER BY\n  {{Table1.sortOrder.column || 'timestamp'}} {{Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\nLIMIT\n  {{Table1.pageSize}}\nOFFSET\n  {{Table1.pageOffset}}",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -38,9 +38,9 @@
     "jsonPathKeys": [
       "Table1.pageOffset",
       "Table1.pageSize",
-      "Table1.searchText",
       "Table1.sortOrder.column || 'timestamp'",
-      "Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\""
+      "Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
+      "Tablelogfiles.searchText"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

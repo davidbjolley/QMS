@@ -114,8 +114,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "Table1.searchText",
                 "Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
+                "Tablelogfiles.searchText",
                 "Table1.sortOrder.column || 'timestamp'",
                 "Table1.pageSize",
                 "Table1.pageOffset"
