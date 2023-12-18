@@ -93,7 +93,7 @@
     "columnWidthMap": {
         "nickname": 124,
         "event": 101,
-        "timestamp": 196,
+        "timestamp": 234,
         "username": 189
     },
     "parentRowSpace": 10,
@@ -372,7 +372,7 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "timestamp",
-            "columnType": "text",
+            "columnType": "date",
             "horizontalAlignment": "LEFT",
             "isCellEditable": false,
             "width": 150,
