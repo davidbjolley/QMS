@@ -372,7 +372,7 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "timestamp",
-            "columnType": "date",
+            "columnType": "text",
             "horizontalAlignment": "LEFT",
             "isCellEditable": false,
             "width": 150,
