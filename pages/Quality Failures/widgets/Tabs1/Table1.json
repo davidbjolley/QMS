@@ -33,7 +33,7 @@
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisibleFilters": true,
     "isVisible": true,
-    "enableClientSideSearch": false,
+    "enableClientSideSearch": true,
     "version": 2,
     "totalRecordsCount": "{{Total_record_qualityfailures1.data[0].count}}",
     "tags": [
@@ -330,7 +330,7 @@
     "key": "q7frza67u1",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 62,
+    "rightColumn": 63,
     "textSize": "0.875rem",
     "widgetId": "75jwj4yaq2",
     "allowAddNewRow": false,

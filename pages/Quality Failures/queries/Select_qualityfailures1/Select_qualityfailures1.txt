@@ -3,7 +3,7 @@ SELECT
 FROM
   qualityfailures
 WHERE
-  date LIKE '%{{Table1.searchText}}%'
+  nickname LIKE '%{{Table1.searchText}}%'
 ORDER BY
   {{Table1.sortOrder.column || 'id'}} {{Table1.sortOrder.order !== "desc" ? "" : "DESC"}}
 LIMIT
