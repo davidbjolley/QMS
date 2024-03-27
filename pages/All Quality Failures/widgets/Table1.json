@@ -382,6 +382,7 @@
     "textSize": "0.875rem",
     "widgetId": "gsepq9e7jq",
     "allowAddNewRow": false,
+    "enableServerSideFiltering": false,
     "minWidth": 450,
     "tableData": "{{Select_qualityfailures1.data}}",
     "label": "Data",

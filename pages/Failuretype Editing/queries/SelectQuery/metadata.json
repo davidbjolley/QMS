@@ -38,7 +38,8 @@
     "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2024-03-27T18:36:10Z"
   },
   "id": "Failuretype Editing_SelectQuery",
   "deleted": false,

@@ -198,6 +198,7 @@
     "rightColumn": 43,
     "textSize": "0.875rem",
     "widgetId": "gmcbrwe8sb",
+    "enableServerSideFiltering": false,
     "minWidth": 450,
     "tableData": "{{firstqualityfailure.data}}",
     "label": "Data",

@@ -45,7 +45,8 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2024-03-27T18:36:10Z"
   },
   "id": "All Quality Failures_Insert_qualityfailures1",
   "deleted": false,

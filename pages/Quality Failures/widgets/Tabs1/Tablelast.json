@@ -198,6 +198,7 @@
     "rightColumn": 58,
     "textSize": "0.875rem",
     "widgetId": "ebtp05x58f",
+    "enableServerSideFiltering": false,
     "minWidth": 450,
     "tableData": "{{lastqualityfailure.data}}",
     "label": "Data",

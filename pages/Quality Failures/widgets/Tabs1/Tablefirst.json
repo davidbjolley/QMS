@@ -198,6 +198,7 @@
     "rightColumn": 58,
     "textSize": "0.875rem",
     "widgetId": "9nitel5g91",
+    "enableServerSideFiltering": false,
     "minWidth": 450,
     "tableData": "{{firstqualityfailure.data}}",
     "label": "Data",
