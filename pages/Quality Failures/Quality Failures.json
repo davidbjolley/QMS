@@ -2,6 +2,7 @@
   "unpublishedPage": {
     "name": "Quality Failures",
     "slug": "quality-failures",
+    "customSlug": "",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +14,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1060,
+          "bottomRow": 610,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -109,6 +110,20 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "Quality Failures_Select_qualityfailures2",
+              "name": "Select_qualityfailures2",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Table2.pageSize",
+                "Table2.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
+                "Table2.sortOrder.column || 'id'",
+                "Table2.pageOffset",
+                "Table2.searchText"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "Quality Failures_Select_qualityfailures_logfile1",
               "name": "Select_qualityfailures_logfile1",
               "confirmBeforeExecute": false,
@@ -143,6 +158,16 @@
               "pluginType": "DB",
               "jsonPathKeys": [
                 "Table1.searchText"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Quality Failures_Total_record_qualityfailures2",
+              "name": "Total_record_qualityfailures2",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Table2.searchText"
               ],
               "timeoutInMillisecond": 10000
             },

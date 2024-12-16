@@ -1,1 +1,3 @@
-SELECT DISTINCT defect FROM qualityfailures;
+SELECT DISTINCT defect 
+FROM qualityfailures 
+ORDER BY defect ASC;

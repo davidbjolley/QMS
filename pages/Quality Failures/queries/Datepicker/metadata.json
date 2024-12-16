@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "Defects",
+    "name": "Datepicker",
     "datasource": {
       "name": "MariaDB Morris",
       "pluginId": "mysql-plugin",
@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT DISTINCT defect \nFROM qualityfailures \nORDER BY defect ASC;\n",
+      "body": "SELECT * FROM defects WHERE qualityfailures.date >= {{DatePicker1.selectedDate}} AND qualityfailures.date <={{DatePicker2.selectedDate}} ORDER BY id;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -27,18 +27,25 @@
       ]
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "DatePicker1.selectedDate",
+      "DatePicker2.selectedDate"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-11-13T19:48:58Z"
+    "createdAt": "2024-06-10T19:27:15Z"
   },
-  "id": "Quality Failures_Defects",
+  "id": "Quality Failures_Datepicker",
   "deleted": false,
-  "gitSyncId": "651b343c20ab4d5a5e3d2f89_65527daa20ab4d5a5e3d32c1"
+  "gitSyncId": "665f20e899f8c144d1c4d431_6d496d5b-1d76-4583-af79-3a88eab69177"
 }
