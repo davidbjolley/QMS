@@ -9,9 +9,12 @@
     "leftColumn": 26,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "defaultDate"}
     ],
+    "labelTooltip": "defaults to last day of last month",
     "isDisabled": false,
+    "onDateSelected": "{{Datepicker.run().then(() => {\n  resetWidget(\"Table2\", true);\n});}}",
     "isRequired": false,
     "dynamicHeight": "FIXED",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -34,6 +37,7 @@
     "mobileBottomRow": 8,
     "widgetName": "DatePicker2",
     "minDate": "1920-12-31T18:30:00.000Z",
+    "dynamicPropertyPathList": [{"key": "defaultDate"}],
     "displayName": "DatePicker",
     "searchTags": ["calendar"],
     "bottomRow": 6,
@@ -42,11 +46,11 @@
     "hideCard": false,
     "mobileRightColumn": 30,
     "parentColumnSpace": 17.71875,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onDateSelected"}],
     "labelPosition": "Top",
     "key": "p7xfim5ove",
     "labelTextSize": "0.875rem",
-    "defaultDate": "2024-06-10T19:05:51.097Z",
+    "defaultDate": "{{moment().subtract(1, \"months\").endOf(\"month\").format(\"YYYY-MM-DD\")\n}}",
     "isDeprecated": false,
     "rightColumn": 46,
     "thumbnailSVG": "/static/media/thumbnail.6f2ddea04e74f31810326bef3bc239b8.svg",
@@ -60,7 +64,7 @@
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 10,
     "maxDynamicHeight": 9000,
-    "firstDayOfWeek": 0,
+    "firstDayOfWeek": "0",
     "maxDate": "2121-12-31T18:29:00.000Z",
     "minDynamicHeight": 4
 }

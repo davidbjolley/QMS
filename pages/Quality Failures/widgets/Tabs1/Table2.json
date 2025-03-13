@@ -425,7 +425,7 @@
     "widgetId": "39vwmv9ru0",
     "allowAddNewRow": false,
     "minWidth": 450,
-    "tableData": "{{Select_qualityfailures2.data}}",
+    "tableData": "{{Datepicker.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "knbfcqsius",

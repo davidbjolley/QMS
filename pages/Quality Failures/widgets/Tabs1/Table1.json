@@ -31,7 +31,7 @@
     "defaultSelectedRowIndex": 0,
     "showInlineEditingOptionDropdown": true,
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisibleFilters": true,
+    "isVisibleFilters": false,
     "isVisible": true,
     "enableClientSideSearch": true,
     "version": 2,

@@ -181,6 +181,7 @@
             "minHeight": 650,
             "mobileRightColumn": 905,
             "parentColumnSpace": 1,
+            "dynamicTriggerPathList": [],
             "leftColumn": 0,
             "dynamicBindingPathList": [
                 {"key": "borderRadius"},
@@ -188,7 +189,7 @@
             ],
             "key": "uuzhcj5kkv",
             "isDeprecated": false,
-            "tabName": "Tab 1",
+            "tabName": "Data Export",
             "rightColumn": 905,
             "detachFromLayout": true,
             "dynamicHeight": "AUTO_HEIGHT",
@@ -250,7 +251,7 @@
             "widgetId": "knbfcqsius",
             "index": 4,
             "id": "tabduct7p3ld7",
-            "label": "All Quality Failures",
+            "label": "Data Export",
             "isVisible": true
         },
         "tab2": {

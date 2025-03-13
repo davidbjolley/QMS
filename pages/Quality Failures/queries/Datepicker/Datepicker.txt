@@ -1,1 +1,1 @@
-SELECT * FROM defects WHERE qualityfailures.date >= {{DatePicker1.selectedDate}} AND qualityfailures.date <={{DatePicker2.selectedDate}} ORDER BY id;
+SELECT * FROM qualityfailures WHERE qualityfailures.date >= {{DatePicker1.selectedDate}} AND qualityfailures.date <={{DatePicker2.selectedDate}} ORDER BY id;

@@ -96,6 +96,17 @@
           ],
           [
             {
+              "id": "Quality Failures_Datepicker",
+              "name": "Datepicker",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "DatePicker2.selectedDate",
+                "DatePicker1.selectedDate"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "Quality Failures_Select_qualityfailures1",
               "name": "Select_qualityfailures1",
               "confirmBeforeExecute": false,
@@ -106,20 +117,6 @@
                 "Table1.sortOrder.column || 'id'",
                 "Table1.pageSize",
                 "Table1.pageOffset"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Quality Failures_Select_qualityfailures2",
-              "name": "Select_qualityfailures2",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Table2.pageSize",
-                "Table2.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
-                "Table2.sortOrder.column || 'id'",
-                "Table2.pageOffset",
-                "Table2.searchText"
               ],
               "timeoutInMillisecond": 10000
             },
