@@ -15,6 +15,7 @@
     },
     "pageId": "Quality Failures",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "UPDATE qualityfailures SET nickname= '{{Table2.updatedRow.nickname}}', defect= '{{Table2.updatedRow.defect}}', qty= '{{Table2.updatedRow.qty}}', failuretype= '{{Table2.updatedRow.failuretype}}', date_back= '{{Table2.updatedRow.date_back}}', note= '{{Table2.updatedRow.note}}', date= '{{Table2.updatedRow.date}}' WHERE id= '{{Table2.updatedRow.id}}';",

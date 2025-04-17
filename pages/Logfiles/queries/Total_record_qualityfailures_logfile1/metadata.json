@@ -15,6 +15,7 @@
     },
     "pageId": "Logfiles",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "SELECT COUNT(*) from qualityfailures_logfile WHERE date LIKE '%{{Table1.searchText}}%';",
